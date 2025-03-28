@@ -47,7 +47,7 @@ align-items: center;
     top: 10px;
     color: white;
     display: none;
-    font-size:clamp(2.5rem, 0.5rem, +5vw , 3rem); ;
+    font-size:clamp(2.5rem, 0.5rem + 5vw , 1.5rem); ;
 }
 .name .links{
     display: flex;
@@ -180,6 +180,80 @@ text-shadow: 0 0 10px rgb(20, 153, 220);
    height: 3rem;
     align-items: center;
     border-radius: 50%;
-    background-color: rgb(209, 229, 232);
+    background-color: transparent;
     display: inline-flex;
+    margin: 0 15px;
+    box-shadow: 0 0 8px rgb(84, 183, 200);
+    border: 0.1rem solid;
+    color: turquoise;
 }
+.social-links i:hover{
+scale: 1.2;
+color: black;
+background-color: rgb(127, 255, 255); 
+filter:drop-shadow(0 0 8px rgb(127, 249, 255));
+}
+
+.content button{
+    width: 50%;
+    height: 6hv;
+    margin: 30px;
+    background-color: rgb(50, 195, 205);
+    border-radius: 25px;
+    border: none;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(84, 183, 200);
+    font-size: 120%;
+
+}
+.content button:hover{
+    background-color: rgb(15, 17, 17);
+    color: aqua;
+    box-shadow: 0 0 10px rgb(84, 183, 200);
+    scale: 1.1;
+    font-weight: 700;
+}
+
+@media (max-width:884px){
+    nav .logo{
+        position: absolute;
+        left: 15px;
+        top:16px;
+        font-size: 1.5rem;  
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .name .links {
+    display: none;
+  }
+ .hamburg,
+.cancel{
+display: block;
+left: 45%;
+        }
+
+.container .content{
+    width: 80%;
+}
+.social-links i{
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+.container .image {
+    width: 50%;
+    height: 60%;
+    z-index: -1;
+
+
+
+
+
+
+
+}
+
+
