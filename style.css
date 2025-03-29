@@ -42,7 +42,8 @@ align-items: center;
 .hamburg,
 .cancel{
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    width: fit-content;
     right: 15px;
     top: 10px;
     color: white;
@@ -97,7 +98,7 @@ color: aquamarine;
     .dropdown .links a{
         padding: 15px 0;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: center;
         transition: 0.2s linear;
@@ -233,7 +234,6 @@ filter:drop-shadow(0 0 8px rgb(127, 249, 255));
  .hamburg,
  .cancel{
     display: block;
-    left: 45%;
         }
 
 .container .content{
