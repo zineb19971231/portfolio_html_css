@@ -12,8 +12,9 @@ function cancel(){
 
 
 const texts=
-    ['DEVLOPPER',
-    'PROGRAMMER']
+    ['PROFESSIONAL WEB DEVELOPPER',
+    'FULL STACK DEVELOPPER',
+    ]
 
     let speed = 100;
     const textElement = document.querySelector('.typewriter-txt');
