@@ -13,7 +13,6 @@ function cancel(){
 
 const texts=
     ['DEVLOPPER',
-    'DESIGNER',
     'PROGRAMMER']
 
     let speed = 100;
@@ -33,7 +32,7 @@ const texts=
     function eraseText(){
         if (textElement.innerHTML.length > 0){
             textElement.innerHTML =  textElement.innerHTML.slice(0,-1);
-            setTimeout(eraseText,50);}
+            setTimeout(eraseText,100);}
         else{
             txtindex=(txtindex+1) % texts.length;
             characterindex=0;
